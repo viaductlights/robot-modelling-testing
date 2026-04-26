@@ -37,7 +37,7 @@ sources
 
 `docker pull osrf/space-ros-moveit2:latest`  
 `cd spaceros_ws`  
-`git clone https://github.com/space-ros/docker` [avoids building from binary ./build.sh -> crashed my Xorg 2 times bc I ran out of system memory before I gave up]  
+`git clone https://github.com/space-ros/docker` [avoids building from binary ./build.sh -> crashed my Xorg 2 times over 90 min bc I ran out of system memory before I gave up]  
 `cd docker/moveit2`  
 `./run.sh`  
 
