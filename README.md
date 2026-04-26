@@ -1,5 +1,5 @@
 ##### instructions
-add "other_models" to ros2_ws/src
+add "other_models" to ${ROS2_WORKSPACE_NAME}/src
 
 `colcon build`  
 `source install/setup.bash`  
