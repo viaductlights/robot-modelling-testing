@@ -21,7 +21,7 @@ sources
 
 [source: https://web.archive.org/web/20251116212638/https://earthly.dev/get-earthly]
 
-###### test
+##### test
 
 `earthly github.com/earthly/hello-world+hello`  
 
@@ -42,17 +42,17 @@ sources
 `./run.sh`  
 
 ##### canadarm demo 
-build image:
+build image:  
 `cd ~/spaceros/docker/moveit2`  
 `git clone https://github.com/space-ros/demos`  
 `cd demos`  
 `cd space_robots`  
 `./build.sh`  
 
-run image:
+run image:  
 `./run.sh`  
 
-in demo container:
+in demo container:  
 `ros2 launch canadarm_demo canadarm.launch.py`  
 
 ##### ros-Trick demo
@@ -64,19 +64,16 @@ run image:
 `xhost +local:docker`  
 `./run.sh`  
 
-connecting to container from another terminal:
+connecting to container from another terminal:  
 `docker exec -it canadarm_ros_trick_demo bash`  
 `source install/setup.bash && ros2 launch trick_canadarm_moveit_config moveit_rviz.launch.py`  
 
 [source: https://github.com/space-ros/demos/blob/main/ros_trick/README.md]
 
 ##### other notes
-next:  
-- test canadarm + canadarm2/Trick demos
 
 ###### connecting another terminal to an already running docker container
 
 `docker container list`  
 from output, get CONTAINER ID / CONTAINER NAME  
-
 `docker exec -it CONTAINER ID OR CONTAINER NAME /bin/bash --init-file "install/setup.bash"`  
