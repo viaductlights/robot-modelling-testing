@@ -19,7 +19,7 @@ mirrored from space ros demos
 
 install urdf-launch  
 `sudo apt install ros-jazzy-urdf-launch`  
-`colcon build`
+`colcon build`  
 `source install/setup.bash`  
 `ros2 launch canadarm_description robodescript_rviz_working.launch.py`  
 
