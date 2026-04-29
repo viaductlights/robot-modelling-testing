@@ -1,6 +1,7 @@
 #### instructions
-add "other_models" to ${ROS2_WORKSPACE_NAME}/src
+add "other_models" and "canadarm_description to ${ROS2_WORKSPACE_NAME}/src
 
+##### other_models package  
 `colcon build`  
 `source install/setup.bash`  
 `ros2 launch other_models other_models.launch.py`  
@@ -12,6 +13,18 @@ ETSVII [1]
 
 sources  
 [1] https://github.com/vyas-shubham/TraceableRobotModels/tree/master
+
+##### canadarm_description package  
+mirrored from space ros demos  
+
+install urdf-launch  
+`sudo apt install ros-jazzy-urdf-launch`  
+`colcon build`
+`source install/setup.bash`  
+`ros2 launch canadarm_description robodescript_rviz_working.launch.py`  
+
+source  
+[1] https://github.com/space-ros/demos/tree/main/canadarm2  
 
 #### SPACEROS!
 
