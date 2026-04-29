@@ -1,5 +1,5 @@
 #### instructions
-add "other_models" and "canadarm_description to ${ROS2_WORKSPACE_NAME}/src
+add "other_models" and "canadarm_description" to ${ROS2_WORKSPACE_NAME}/src
 
 ##### other_models package  
 `colcon build`  
