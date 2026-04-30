@@ -18,7 +18,7 @@ def generate_launch_description():
     default_rviz_config_path = PathJoinSubstitution([
         canadarm_description_share, 
         'rviz', 
-        'rviz_basic_settings2.rviz'
+        'rviz_basic_settings_2.rviz'
     ])
     
     # Launch arguments
