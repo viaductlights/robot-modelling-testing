@@ -1,5 +1,10 @@
 #### instructions
-add "other_models" and "canadarm_description" to ${ROS2_WORKSPACE_NAME}/src
+add "bean1," "other_models," and "canadarm_description" to ${ROS2_WORKSPACE_NAME}/src
+
+##### bean1 package  
+`colcon build`  
+`source install/setup.bash`  
+`ros2 launch bean1 bean1_rviz.launch.py`  
 
 ##### other_models package  
 `colcon build`  
