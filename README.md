@@ -94,4 +94,4 @@ connecting to container from another terminal:
 
 `docker container list`  
 from output, get CONTAINER ID / CONTAINER NAME  
-`docker exec -it CONTAINER ID OR CONTAINER NAME /bin/bash --init-file "install/setup.bash"`  
+`docker exec -it CONTAINER ID OR CONTAINER NAME /bin/bash
